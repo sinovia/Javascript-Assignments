@@ -51,11 +51,15 @@ var meatSlices = pizzaChoices.slice( 0, 3);
 console.log(meatSlices);
 
 
-
 // .splice()
 var comicSounds = ["Boop", "Beep", "Zip", "Bang"];
 comicSounds.splice (2, 0, "Bam", "Zap");
 console.log(comicSounds);
+
+// The shift function removes the first listing
+var nSYNC = ["Justin","JC", "Chris", "Lance", "Joey",];
+nSYNC.shift("Justin");
+console.log(nSYNC);
 
 // The unshift function adds elements to the beginning of an array
 var nSYNC = ["Chris", "Lance", "Joey",];
