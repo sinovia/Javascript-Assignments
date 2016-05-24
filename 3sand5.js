@@ -1,17 +1,14 @@
-var x = 0;
+var sum = 0;
 
-for (i=0; i < 1000; i++) {
+for (var i=0; i < 1000; i++) {
 
 if (i % 3 === 0) {
-		console.log (i);
+		sum = sum + i;
 	}
 
 else if (i % 5 ===0) {
-	console.log (i);
+		sum = sum + i;
 }
 
-else {
 }
-
-x+=i
-}
+ console.log (sum);
